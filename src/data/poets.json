@@ -194,18 +194,18 @@
     "teis": "https://teis.yesevi.edu.tr/madde-detay/mahmud-bin-ali-kerderli-mahmud"
   },
   {
-    "name": "İslam",
+    "name": "İslâm",
     "location": null,
-    "birth_year": null,
+    "birth_year": 1313,
     "death_year": null,
     "birth_place": null,
     "death_place": null,
-    "period": null,
-    "style": null,
-    "language": null,
-    "works": [],
-    "notes": "Belirgin bilgi yok; TEİS'te modern döneme ilişkin farklı isimlerle (örneğin İslam Erdener) karşılaşılmaktadır. Bu 'İslam' şairi için TEİS girişi bulunamamıştır.",
-    "teis": null
+    "period": "14. yy",
+    "style": "Tasavvufî, didaktik hece ölçülü manzum eserler",
+    "language": "Harezm Türkçesi (Karahanlı, Oğuz, Kıpçak karışımı)",
+    "works": ["Mu‘înü’l‑Mürîd"],
+    "notes": "Mu‘înü’l‑Mürîd adlı eser, 713 H./1313–1314 M. yılında yazılmış, 407 dörtlükten oluşan dinî ve tasavvufî bir eserdir. Eser Harezm (Khwarezm) Türkçesiyle yazılmış, Oğuz ve Kıpçak unsurlar taşımaktadır :contentReference[oaicite:1]{index=1}. Yazar adı eser içinde geçse de Zeki Velidi Togan’a göre ‘Ata İslâm’ ifadesi şeyh/mürşit anlamında da kullanılabilir :contentReference[oaicite:2]{index=2}. TEİS kaydı: “Mu‘înü’l‑Mürîd (İslâm)” başlığı altında yer alıyor :contentReference[oaicite:3]{index=3}.",
+    "teis": "https://teis.yesevi.edu.tr/madde-detay/islam-seyh-islam"
   },
   {
     "name": "Kutb",
