@@ -145,7 +145,7 @@ onMounted(async () => {
   const L = await import('leaflet');
   await nextTick();
 
-  map = L.map('map').setView([39, 50], 5);
+  map = L.map('map').setView([39, 35], 5);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors',
