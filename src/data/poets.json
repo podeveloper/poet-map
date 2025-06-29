@@ -29,7 +29,7 @@
   },
   {
     "name": "Edîb Ahmed Yüknekî",
-    "location": null,
+    "location": [42.7871, 69.2699],
     "birth_year": null,
     "death_year": null,
     "birth_place": "Yüknek (semenderte akrın civarı, Orta Asya)",
@@ -57,7 +57,7 @@
   },
   {
     "name": "Hâkim Süleyman Ata (Hâkim Ata)",
-    "location": null,
+    "location": [41.308, 60.4544],
     "birth_year": null,
     "death_year": 1186,
     "birth_place": "Hârezm",
@@ -104,7 +104,7 @@
   },
   {
     "name": "Mevlânâ Celâleddîn Rûmî",
-    "location": [36.75, 67.1167],
+    "location": [36.5958, 66.9872],
     "birth_year": 1207,
     "birth_place": "Belh (Afganistan)",
     "death_place": "Konya",
@@ -153,7 +153,7 @@
   },
   {
     "name": "Hacı Bektaş Velî",
-    "location": [36.214, 58.796],
+    "location": [36.2133, 58.7958],
     "birth_year": 1209,
     "birth_place": "Nişabur (Horasan)",
     "death_place": "Hacıbektaş (Nevşehir)",
@@ -167,7 +167,7 @@
   },
   {
     "name": "Rabgûzî (Nâsırüddîn b. Burhânüddîn)",
-    "location": null,
+    "location": [41.374, 60.3714],
     "birth_year": null,
     "death_year": null,
     "birth_place": "Ribat Oğuz (Harezm bölgesi)",
@@ -181,7 +181,7 @@
   },
   {
     "name": "Kerderli Mahmud (Mahmud b. ‘Alî)",
-    "location": null,
+    "location": [41.374, 60.3714],
     "birth_year": null,
     "death_year": 1360,
     "birth_place": "Harezm bölgesi",
@@ -195,7 +195,7 @@
   },
   {
     "name": "İslâm",
-    "location": null,
+    "location": [41.374, 60.3714],
     "birth_year": 1313,
     "death_year": null,
     "birth_place": null,
@@ -209,7 +209,7 @@
   },
   {
     "name": "Kutb",
-    "location": null,
+    "location": [41.374, 60.3714],
     "birth_year": null,
     "death_year": null,
     "birth_place": "Harezm veya Mâverâünnehir",
@@ -223,7 +223,7 @@
   },
   {
     "name": "Harezmî (Kemâleddin)",
-    "location": null,
+    "location": [41.308, 60.4544],
     "birth_year": null,
     "death_year": 1434,
     "birth_place": "Harezm",
@@ -237,7 +237,7 @@
   },
   {
     "name": "Seyf‑i Sarâyî",
-    "location": null,
+    "location": [44.25, 47.33],
     "birth_year": null,
     "death_year": 1394,
     "birth_place": "Altın Orda (Saray’da doğduğu tahmin ediliyor)",
@@ -251,7 +251,7 @@
   },
   {
     "name": "Ebû Hayyân Muhammed b. Yûsuf el-Endelüsî",
-    "location": null,
+    "location": [37.177, 3.5986],
     "birth_year": 1256,
     "death_year": 1344,
     "birth_place": "Mataxşereş (Gırnata/Endülüs)",
@@ -265,7 +265,7 @@
   },
   {
     "name": "Hüsâm Kâtib (Hisâm Kâtib)",
-    "location": null,
+    "location": [41.374, 60.3714],
     "birth_year": null,
     "death_year": 1368,
     "birth_place": null,
@@ -293,7 +293,7 @@
   },
   {
     "name": "Ahmed ibn Veys (Gıyâseddîn Sultan Ahmed Bahâdır)",
-    "location": null,
+    "location": [30.5926, 47.8194],
     "birth_year": null,
     "death_year": 1410,
     "birth_place": null,
@@ -378,7 +378,7 @@
   },
   {
     "name": "Ahmedî",
-    "location": [39.4208, 29.9833],
+    "location": [39.72, 30.1511],
     "birth_year": 1334,
     "death_year": 1413,
     "birth_place": "Germiyan (Kütahya)",
@@ -406,7 +406,7 @@
   },
   {
     "name": "Hoca Mes’ûd (Mes’ûd bin Ahmed)",
-    "location": null,
+    "location": [39.72, 30.1511],
     "birth_year": null,
     "death_year": 1400,
     "birth_place": null,
@@ -448,7 +448,7 @@
   },
   {
     "name": "Ahmed‑i Dâ'î",
-    "location": null,
+    "location": [39.72, 30.1511],
     "birth_year": null,
     "death_year": 1421,
     "birth_place": "Germiyan (Anadolu)",
@@ -511,7 +511,7 @@
   },
   {
     "name": "Avnî (Fatih Sultan Mehmed)",
-    "location": [41.0082, 28.9784],
+    "location": [41.6767, 26.5595],
     "birth_year": 1432,
     "death_year": 1481,
     "birth_place": "Edirne",
@@ -525,7 +525,7 @@
   },
   {
     "name": "Adlî",
-    "location": [41.0082, 28.9784],
+    "location": [41.35, 26.5667],
     "birth_year": 1447,
     "death_year": 1512,
     "birth_place": "Dimetoka",
@@ -539,7 +539,7 @@
   },
   {
     "name": "Sultan Cem",
-    "location": [41.0082, 28.9784],
+    "location": [41.6767, 26.5595],
     "birth_year": 1459,
     "death_year": 1495,
     "birth_place": "Edirne",
@@ -553,7 +553,7 @@
   },
   {
     "name": "Şehzade Korkud",
-    "location": [40.65, 30.05],
+    "location": [40.65, 35.8333],
     "birth_year": 1467,
     "death_year": 1513,
     "birth_place": "Amasya",
@@ -609,7 +609,7 @@
   },
   {
     "name": "Cemâlî (Bâyezîd)",
-    "location": [37.8746, 30.7036],
+    "location": [37.1811, 33.215],
     "birth_year": 1410,
     "death_year": 1512,
     "birth_place": "Karaman (muhtemel)",
@@ -656,7 +656,7 @@
   },
   {
     "name": "Melîhî",
-    "location": null,
+    "location": [40.3125, 36.5503],
     "birth_year": null,
     "death_year": null,
     "birth_place": "Muhtemelen Tokat/Sinop/Kastamonu",
@@ -705,7 +705,7 @@
   },
   {
     "name": "Zeyneb Hanım",
-    "location": null,
+    "location": [40.6539, 35.8333],
     "birth_year": null,
     "death_year": 1475,
     "birth_place": null,
@@ -753,7 +753,7 @@
   },
   {
     "name": "Fuzûlî (Məhəmməd Füzulî)",
-    "location": null,
+    "location": [32.6011, 44.08],
     "birth_year": 1483,
     "death_year": 1556,
     "birth_place": "Kerbela (ya da Hille/Necf)",
@@ -767,7 +767,7 @@
   },
   {
     "name": "Zâtî (İvâz Süleyman Efendi)",
-    "location": null,
+    "location": [40.41, 26.67],
     "birth_year": null,
     "death_year": null,
     "birth_place": "Gelibolu",
@@ -781,7 +781,7 @@
   },
   {
     "name": "Hayâlî Bey (Mehmed Hayâlî)",
-    "location": null,
+    "location": [41.34, 22.5],
     "birth_year": null,
     "death_year": 1557,
     "birth_place": "Yenice (Makedonya) veya Kırım",
@@ -837,7 +837,7 @@
   },
   {
     "name": "Kemâl Paşazâde (İbn Kemâl)",
-    "location": null,
+    "location": [41.3483, 26.5664],
     "birth_year": 1468,
     "death_year": 1534,
     "birth_place": "Dimetoka",
@@ -851,7 +851,7 @@
   },
   {
     "name": "Figânî",
-    "location": null,
+    "location": [41.0053, 39.7225],
     "birth_year": null,
     "death_year": null,
     "birth_place": "Trabzon (veya Artvin’e ait başka Figânî’ler)",
@@ -865,15 +865,19 @@
   },
   {
     "name": "Muhibbî",
-    "location": null,
-    "birth_year": null,
-    "death_year": null,
-    "birth_place": null,
-    "death_place": null,
+    "location": [41.0013, 39.7192],
+    "birth_year": "1494",
+    "death_year": "1566",
+    "birth_place": "Trabzon, Osmanlı İmparatorluğu",
+    "death_place": "Zigetvar, Macaristan",
     "period": "16. yy",
-    "style": "Padişah (Kanunî Sultan Süleymân), divan şairi",
+    "style": "Padişah (Kanunî Sultan Süleyman), divan şairi",
     "language": "Osmanlı Türkçesi",
-    "works": [],
+    "works": [
+      "Şiirlerinde aşk, tasavvuf ve devlet yönetimi gibi temaları işler.",
+      "Fuzûlî ve Bâkî gibi dönemin önemli şairlerinden etkilenmiştir.",
+      "Hürrem Sultan'a olan derin sevgisini dile getiren şiirleri vardır."
+    ],
     "notes": "Kanunî'nin mahlasıdır; çok üretken bir padişah şair olarak eserleriyle bilinir.",
     "teis": "https://teis.yesevi.edu.tr/madde-detay/muhibbi"
   },
@@ -921,7 +925,7 @@
   },
   {
     "name": "Nevizâde Atâî",
-    "location": null,
+    "location": [41.0082, 28.9784],
     "birth_year": 1583,
     "death_year": 1624,
     "birth_place": "İstanbul",
@@ -935,7 +939,7 @@
   },
   {
     "name": "Şeyhülislâm Yahyâ",
-    "location": null,
+    "location": [41.0082, 28.9784],
     "birth_year": 1561,
     "death_year": 1644,
     "birth_place": "İstanbul",
@@ -949,11 +953,11 @@
   },
   {
     "name": "Şeyhülislâm Bahâyî (Azîz-zâde Mehmed Efendi)",
-    "location": null,
+    "location": [41.0082, 28.9784],
     "birth_year": 1553,
     "death_year": 1653,
-    "birth_place": null,
-    "death_place": null,
+    "birth_place": "İstanbul",
+    "death_place": "İstanbul",
     "period": "17. yy",
     "style": "Divan şairi, şeyhülislâm, bestekâr",
     "language": "Osmanlı Türkçesi",
@@ -963,11 +967,11 @@
   },
   {
     "name": "Nâilî-i Kadîm (Mustafa Çelebi)",
-    "location": null,
-    "birth_year": null,
+    "location": [41.0082, 28.9784],
+    "birth_year": 1608,
     "death_year": 1666,
-    "birth_place": null,
-    "death_place": null,
+    "birth_place": "İstanbul",
+    "death_place": "Edirne",
     "period": "17. yy",
     "style": "Sebk-i Hindî",
     "language": "Osmanlı Türkçesi",
@@ -977,35 +981,40 @@
   },
   {
     "name": "Neşâtî (Ahmed Dede)",
-    "location": null,
-    "birth_year": null,
+    "location": [41.6769, 26.5681],
+    "birth_year": 1600,
     "death_year": 1674,
-    "birth_place": null,
-    "death_place": null,
+    "birth_place": "Edirne",
+    "death_place": "Edirne",
     "period": "17. yy",
     "style": "Sebk-i Hindî, duygulu gazel",
     "language": "Osmanlı Türkçesi",
-    "works": [],
+    "works": ["Divan"],
     "notes": "Klasik dönemin duygulu şairlerinden, Ahmed Dede olarak da bilinir.",
     "teis": "https://teis.yesevi.edu.tr/madde-detay/nesati-ahmed-dede"
   },
   {
-    "name": "Fehîm‑i Kadîm",
-    "location": null,
-    "birth_year": null,
-    "death_year": null,
-    "birth_place": null,
-    "death_place": null,
+    "name": "Fehîm-i Kadîm (Mustafa)",
+    "location": [41.0082, 28.9784],
+    "birth_year": 1627,
+    "death_year": 1647,
+    "birth_place": "İstanbul",
+    "death_place": "Ilgın, Konya",
     "period": "17. yy",
     "style": "Sebk-i Hindî",
     "language": "Osmanlı Türkçesi",
-    "works": ["Dîvân"],
+    "works": [
+      "Divan",
+      "Şehrengiz",
+      "Durub-ı Emsâli Türkî",
+      "Tercüme-i Letayîf-i Kibâr-ı Kümmelîn"
+    ],
     "notes": "Sebk-i Hindî’nin önemli isimlerindendir, anlam yoğun şiirler yazar.",
     "teis": "https://teis.yesevi.edu.tr/madde-detay/fehimi-kadim"
   },
   {
     "name": "Nedîm-i Kadîm (Mehmed)",
-    "location": null,
+    "location": [41.0082, 28.9784],
     "birth_year": null,
     "death_year": 1670,
     "birth_place": "İstanbul",
@@ -1047,7 +1056,7 @@
   },
   {
     "name": "Azmî-zâde Hâletî (Mustafa Hâletî)",
-    "location": null,
+    "location": [41.0082, 28.9784],
     "birth_year": 1570,
     "death_year": 1631,
     "birth_place": "İstanbul",
@@ -1089,7 +1098,7 @@
   },
   {
     "name": "Kânî (Ebû Bekîr)",
-    "location": null,
+    "location": [40.3167, 36.55],
     "birth_year": null,
     "death_year": null,
     "birth_place": "Tokat",
@@ -1117,7 +1126,7 @@
   },
   {
     "name": "Sünbülzâde Vehbî (Mehmed)",
-    "location": null,
+    "location": [37.5736, 36.9378],
     "birth_year": null,
     "death_year": null,
     "birth_place": "Maraş",
