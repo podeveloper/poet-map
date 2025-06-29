@@ -65,6 +65,13 @@ function updateMarkers(L) {
 
   const locIndex = {};
 
+  const customIcon = new L.Icon({
+    iconUrl: new URL('../assets/icons/inkwell.png', import.meta.url).href,
+    iconSize: [30, 40],
+    iconAnchor: [15, 40],
+    popupAnchor: [0, -35],
+  });
+
   filterPoets().forEach((poet) => {
     if (!poet.location) return;
 
@@ -128,7 +135,7 @@ function updateMarkers(L) {
   </div>
 `;
 
-    const marker = L.marker(coords).addTo(map);
+    const marker = L.marker(coords, { icon: customIcon }).addTo(map);
     marker.bindPopup(content);
     markers.push(marker);
   });
