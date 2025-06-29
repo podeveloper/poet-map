@@ -23,7 +23,7 @@ import poets from '../data/poets.json'; // JSON dosyanız burada olacak
 
 const sliderEl = ref(null);
 
-const YEAR_MIN = 1200;
+const YEAR_MIN = 1000;
 const YEAR_MAX = 1950;
 const STEP = 50;
 
@@ -49,13 +49,31 @@ function filterPoets() {
   });
 }
 
+function jitter([lat, lng], idx) {
+  if (idx === 0) return [lat, lng]; // İlk kişi orijinal konumda kalsın
+
+  const R = 0.001; // Derece cinsinden (0.15 = ~15 km)
+  const angle = idx * 10 * (Math.PI / 90); // 10° aralıklarla dağıt
+  const dLat = R * Math.cos(angle);
+  const dLng = R * Math.sin(angle);
+  return [lat + dLat, lng + dLng];
+}
+
 function updateMarkers(L) {
   markers.forEach((m) => m.remove());
   markers = [];
 
+  const locIndex = {}; // aynı lokasyondaki sayıyı takip etmek için
+
   filterPoets().forEach((poet) => {
     if (!poet.location) return;
-    const marker = L.marker(poet.location).addTo(map);
+
+    const key = poet.location.join(',');
+    const idx = locIndex[key] ?? 0;
+    const coords = jitter(poet.location, idx);
+    locIndex[key] = idx + 1;
+
+    const marker = L.marker(coords).addTo(map);
     const content = `
       <strong>${poet.name}</strong><br/>
       ${poet.birth_year ?? poet.period} – ${poet.death_year ?? '?'}<br/>
@@ -71,7 +89,7 @@ onMounted(async () => {
   const L = await import('leaflet');
   await nextTick();
 
-  map = L.map('map').setView([39, 34], 6);
+  map = L.map('map').setView([39, 50], 5);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors',
