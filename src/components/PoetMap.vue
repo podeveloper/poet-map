@@ -53,7 +53,7 @@ function jitter([lat, lng], idx) {
   if (idx === 0) return [lat, lng]; // İlk kişi orijinal konumda kalsın
 
   const R = 0.001; // Derece cinsinden (0.15 = ~15 km)
-  const angle = idx * 10 * (Math.PI / 90); // 10° aralıklarla dağıt
+  const angle = idx * 10 * (Math.PI / 180); // 10° aralıklarla dağıt
   const dLat = R * Math.cos(angle);
   const dLng = R * Math.sin(angle);
   return [lat + dLat, lng + dLng];
