@@ -63,7 +63,7 @@ function updateMarkers(L) {
   markers.forEach((m) => m.remove());
   markers = [];
 
-  const locIndex = {}; // aynı lokasyondaki sayıyı takip etmek için
+  const locIndex = {};
 
   filterPoets().forEach((poet) => {
     if (!poet.location) return;
@@ -73,13 +73,62 @@ function updateMarkers(L) {
     const coords = jitter(poet.location, idx);
     locIndex[key] = idx + 1;
 
-    const marker = L.marker(coords).addTo(map);
+    const cleanNotes = poet.notes
+      ?.replace(/:contentReference\\[.*?\\]/g, '')
+      ?.replace(/;(?=\\S)/g, '; ')
+      ?.replace(/\\n/g, '<br/>');
+
     const content = `
-      <strong>${poet.name}</strong><br/>
-      ${poet.birth_year ?? poet.period} – ${poet.death_year ?? '?'}<br/>
-      <em>${poet.style}</em><br/>
-      <small>${poet.notes}</small>
-    `;
+  <div style="text-align: center; max-width: 250px; font-family: sans-serif;">
+    ${
+      poet.image
+        ? `<img src="${poet.image}" alt="${poet.name}" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 0.5rem;" />`
+        : ''
+    }
+    <h3 style="margin: 0; font-size: 1.1rem;">${poet.name}</h3>
+    <p style="margin: 0.25rem 0; font-size: 0.9rem; color: #555;">
+      ${poet.birth_year ?? poet.period} – ${poet.death_year ?? '?'}
+    </p>
+    ${
+      poet.birth_place || poet.death_place
+        ? `
+      <p style="margin: 0.25rem 0; font-size: 0.85rem; color: #444;">
+        ${poet.birth_place ? `🏡 ${poet.birth_place}` : ''}
+        ${poet.death_place ? `<br/>🪦 ${poet.death_place}` : ''}
+      </p>`
+        : ''
+    }
+    ${
+      poet.language
+        ? `<p style="margin: 0.25rem 0; font-size: 0.85rem;">🌍 ${poet.language}</p>`
+        : ''
+    }
+    ${
+      poet.works?.length
+        ? `<p style="margin: 0.25rem 0; font-size: 0.85rem;">✒️ <em>${poet.works.join(
+            ', '
+          )}</em></p>`
+        : ''
+    }
+    ${
+      poet.style
+        ? `<div style="background-color: #eef; padding: 4px 6px; border-radius: 4px; font-size: 0.8rem; margin: 4px auto;">🧵 ${poet.style}</div>`
+        : ''
+    }
+    ${
+      cleanNotes
+        ? `<p style="font-size: 0.75rem; color: #444; margin-top: 0.5rem; line-height: 1.3; max-height: 120px; overflow-y: auto;">${cleanNotes}</p>`
+        : ''
+    }
+    ${
+      poet.teis
+        ? `<a href="${poet.teis}" target="_blank" style="display: inline-block; margin-top: 6px; font-size: 0.8rem; color: #0066cc;">🔗 TEİS sayfası</a>`
+        : ''
+    }
+  </div>
+`;
+
+    const marker = L.marker(coords).addTo(map);
     marker.bindPopup(content);
     markers.push(marker);
   });
